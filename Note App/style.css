@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "comic sans ms", cursive, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size:  35px;
+    font-weight: 600;
+}
+
+.container h1 img{
+   width: 60px; 
+}
+
+.container button img{
+    width :25px;
+    margin-right: 8px;
+}
+
+.container button{
+    display:flex; /* Use flexbox to align items */
+    align-items : center; /* Center the image and text vertically */
+    background: linear-gradient(#f07d11, #ea9f1e);/* Gradient background */
+    color: white;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding:15px 25px /* Add padding for better spacing */;
+    margin:  30px 0 20px;
+    cursor: pointer;
+
+}
+
+.input-box{ /* Input box for text area */
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color:#333;
+    padding: 20px;
+    margin:20px 0;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.input-box img{ /* Image inside input box */
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
